@@ -50,31 +50,7 @@ live demo: [https://fs-remix.vercel.app/](https://fs-remix.vercel.app/)
 
 ### Instructions to run assignment locally
 
-#### 1. Install npm dependencies
-
-```
-yarn
-```
-
-#### 2. Add Environment file
-
-create .env file
-
-Add environment variables (typically not exposed in README but added here for simplicyty as exception):
-
-DATABASE_URL=postgres://u66tf3ial6bcne:pbac4600823dbade681a10c540a288f271aa18032f215b168e4bf1c1bcce6a32a@ce0lkuo944ch99.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d3nibbbfqriuhh
-
-SHADOW_DATABASE_URL=postgres://u66tf3ial6bcne:pbac4600823dbade681a10c540a288f271aa18032f215b168e4bf1c1bcce6a32a@ce0lkuo944ch99.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d3nibbbfqriuhh
-
-OPENAI_API_KEY=sk-proj-PaQrJFyVTFBSlCfEsIOWT3BlbkFJ175zy8gcO7q81IsHcLGh
-
-#### 3. Start the app
-
-```
-yarn dev
-```
-
-The app is now running, navigate to [`http://localhost:5173/`](http://localhost:5173/) in your browser to explore its UI.
+Follow instruction above in **Getting Started** section.
 
 #### Time spent
 
