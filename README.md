@@ -23,10 +23,6 @@ create .env file
 
 Add environment variables (typically not exposed in README but added here for simplicyty as exception):
 
-DATABASE_URL
-SHADOW_DATABASE_URL
-OPENAI_API_KEY
-
 ### 3. Start the app
 
 ```
@@ -60,10 +56,6 @@ yarn
 create .env file
 
 Add environment variables (typically not exposed in README but added here for simplicyty as exception):
-
-DATABASE_URL
-SHADOW_DATABASE_URL
-OPENAI_API_KEY
 
 #### 3. Start the app
 
