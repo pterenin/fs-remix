@@ -22,7 +22,7 @@ export const Post = ({ post, handleDelete }: PostFormProps) => {
       </p>
 
       <Link
-        to={`/post/user/${post.author.id}`}
+        to={`/user/${post.author.id}`}
         className="text-sm mt-4 font-normal text-gray-400 dark:text-gray-400 hover:text-black"
       >
         {post.author.name}

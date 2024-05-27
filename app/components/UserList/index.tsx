@@ -18,7 +18,7 @@ export const UserList = ({ users }: { users: User[] }) => {
             {users.map((user) => (
               <li key={user.id}>
                 <Link
-                  to={`post/user/${user.id}`}
+                  to={`/user/${user.id}`}
                   className="flex flex-col p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
                 >
                   <p className=" ">{user.name}</p>
