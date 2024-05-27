@@ -22,7 +22,7 @@ export const loader: LoaderFunction = async ({
   return json({ post });
 };
 
-export let action: ActionFunction = async ({ request, params }) => {
+export const action: ActionFunction = async ({ request, params }) => {
   const postId = Number(params.postId);
 
   if (!postId) {

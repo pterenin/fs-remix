@@ -7,14 +7,14 @@ import {
 import PostForm from "../components/PostForm";
 import { upsertUser, cretePost } from "prisma/helpers/post";
 
-export let loader: LoaderFunction = async () => {
+export const loader: LoaderFunction = async () => {
   return json({});
 };
 
-export let action: ActionFunction = async ({ request }) => {
-  let formData = await request.formData();
-  let title = formData.get("title")?.toString();
-  let content = formData.get("content")?.toString();
+export const action: ActionFunction = async ({ request }) => {
+  const formData = await request.formData();
+  const title = formData.get("title")?.toString();
+  const content = formData.get("content")?.toString();
   const email = formData.get("email")?.toString();
   const name = formData.get("name")?.toString();
 

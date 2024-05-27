@@ -26,10 +26,10 @@ export const loader: LoaderFunction = async ({
   return json({ post });
 };
 
-export let action: ActionFunction = async ({ request }) => {
-  let formData = await request.formData();
-  let title = formData.get("title")?.toString();
-  let content = formData.get("content")?.toString();
+export const action: ActionFunction = async ({ request }) => {
+  const formData = await request.formData();
+  const title = formData.get("title")?.toString();
+  const content = formData.get("content")?.toString();
   const postId = formData.get("postId")?.toString();
 
   if (!title || !content || !postId) {

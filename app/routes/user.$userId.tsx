@@ -9,7 +9,7 @@ type LoaderData = {
 
 import { json, type LoaderFunction } from "@remix-run/node";
 
-export let loader: LoaderFunction = async ({ params }) => {
+export const loader: LoaderFunction = async ({ params }) => {
   const { userId } = params;
   const authorId = Number(userId);
   const posts = await fetchPostsByAuthorId(authorId);

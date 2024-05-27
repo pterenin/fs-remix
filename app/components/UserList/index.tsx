@@ -1,4 +1,4 @@
-import { Link, useLoaderData } from "@remix-run/react";
+import { Link } from "@remix-run/react";
 import type { User } from "@prisma/client";
 
 export const UserList = ({ users }: { users: User[] }) => {

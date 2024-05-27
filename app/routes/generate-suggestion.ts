@@ -24,6 +24,7 @@ export const action: ActionFunction = async ({ request }) => {
 
     const suggestion = response.choices[0]?.message;
     return json({ suggestion });
+    // eslint-disable-next-line
   } catch (error: any) {
     return json({ error: error.message }, { status: 500 });
   }

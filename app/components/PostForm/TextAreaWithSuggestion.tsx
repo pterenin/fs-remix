@@ -27,9 +27,10 @@ export const TextAreaWithSuggestion = ({
 
   return (
     <>
-      <label>Content</label>
+      <label htmlFor="content">Content</label>
       <textarea
         className="h-[300px] shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+        id="content"
         name="content"
         onChange={(e) => setEntryText(e.target.value)}
         value={entryText}
