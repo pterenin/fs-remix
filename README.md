@@ -23,11 +23,9 @@ create .env file
 
 Add environment variables (typically not exposed in README but added here for simplicyty as exception):
 
-DATABASE_URL=postgres://u66tf3ial6bcne:pbac4600823dbade681a10c540a288f271aa18032f215b168e4bf1c1bcce6a32a@ce0lkuo944ch99.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d3nibbbfqriuhh
-
-SHADOW_DATABASE_URL=postgres://u66tf3ial6bcne:pbac4600823dbade681a10c540a288f271aa18032f215b168e4bf1c1bcce6a32a@ce0lkuo944ch99.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d3nibbbfqriuhh
-
-OPENAI_API_KEY=sk-proj-PaQrJFyVTFBSlCfEsIOWT3BlbkFJ175zy8gcO7q81IsHcLGh
+DATABASE_URL
+SHADOW_DATABASE_URL
+OPENAI_API_KEY
 
 ### 3. Start the app
 
@@ -63,11 +61,9 @@ create .env file
 
 Add environment variables (typically not exposed in README but added here for simplicyty as exception):
 
-DATABASE_URL=postgres://u66tf3ial6bcne:pbac4600823dbade681a10c540a288f271aa18032f215b168e4bf1c1bcce6a32a@ce0lkuo944ch99.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d3nibbbfqriuhh
-
-SHADOW_DATABASE_URL=postgres://u66tf3ial6bcne:pbac4600823dbade681a10c540a288f271aa18032f215b168e4bf1c1bcce6a32a@ce0lkuo944ch99.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d3nibbbfqriuhh
-
-OPENAI_API_KEY=sk-proj-PaQrJFyVTFBSlCfEsIOWT3BlbkFJ175zy8gcO7q81IsHcLGh
+DATABASE_URL
+SHADOW_DATABASE_URL
+OPENAI_API_KEY
 
 #### 3. Start the app
 
